@@ -18,7 +18,7 @@ int main()
 
     if (ifile.fail() || ofile.fail()){
 
-        cout<<"Error in files"<<endl;
+        cout<<"Error in "<<ifile_name<<" or "<<ofile_name<<endl;
 
         return 1;
     }
