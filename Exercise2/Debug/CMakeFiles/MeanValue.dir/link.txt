@@ -1,1 +1,0 @@
-/usr/bin/g++ CMakeFiles/MeanValue.dir/main.cpp.o -o MeanValue  /usr/local/lib/libgtest.a /usr/local/lib/libgtest_main.a /usr/local/lib/libgmock.a /usr/local/lib/libgmock_main.a /usr/local/lib/libgmock.a /usr/local/lib/libgtest.a 
