@@ -13,13 +13,12 @@ int main()
     string ifile_name="data.txt";
     string ofile_name="result.txt";
 
-    ifstream ifile(ifile_name);
-    ofstream ofile(ofile_name);
+    ifstream ifile(ifile_name); //input file
+    ofstream ofile(ofile_name); //output file
 
     if (ifile.fail() || ofile.fail()){
 
-        cout<<"Error in "<<ifile_name<<" or "<<ofile_name<<endl;
-
+        cerr<<"File not found"<<endl;
         return 1;
     }
 
